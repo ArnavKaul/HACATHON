@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amiko:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="patient-info">
+      <div class="amy">AMY</div>
+      <div class="download-patient-file-parent">
+        <div class="download-patient-file">DOWNLOAD PATIENT FILE</div>
+        <img class="icon-download" alt="" src="./public/-icon-download.svg" />
+      </div>
+      <div class="previous-doctors-drsneha-container">
+        <span class="previous-doctors-drsneha-container1">
+          <p class="previous-doctors-drsneha">PREVIOUS DOCTORS: DR.SNEHA</p>
+          <p class="previous-doctors-drsneha">
+            LAST TIME VISITED: 28TH DECEMBER 2023
+          </p>
+          <p class="previous-doctors-drsneha">PREVIOUS AILMENTS: NONE</p>
+          <p class="previous-doctors-drsneha">
+            FAMILY HISTORY: DIABETES, CANCER
+          </p>
+        </span>
+      </div>
+      <img class="vector-icon" alt="" src="./public/vector.svg" id="vector" />
+
+      <div class="patient-info-child"></div>
+      <div class="patient-info-item"></div>
+      <img
+        class="icon-profile-circled"
+        alt=""
+        src="./public/-icon-profile-circled.svg"
+      />
+    </div>
+
+    <script>
+      var vector = document.getElementById("vector");
+      if (vector) {
+        vector.addEventListener("click", function (e) {
+          window.location.href = "./h-o-m-e.html";
+        });
+      }
+      </script>
+  </body>
+</html>

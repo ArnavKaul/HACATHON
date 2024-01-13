@@ -1,0 +1,164 @@
+.search-bar-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-24xl);
+  background-color: var(--color-gainsboro-200);
+}
+.search-all-patients {
+  position: absolute;
+  height: 49.37%;
+  width: 54.12%;
+  top: 25.32%;
+  left: 22.94%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-magnifying-glass {
+  position: absolute;
+  height: 70.63%;
+  width: 6.13%;
+  top: 15.19%;
+  right: 92.01%;
+  bottom: 14.18%;
+  left: 1.87%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.search-bar,
+.vector-icon1 {
+  position: absolute;
+  top: 102px;
+  left: 504px;
+  width: 911px;
+  height: 79px;
+}
+.vector-icon1 {
+  top: 14px;
+  left: 82px;
+  width: 88px;
+  height: 88px;
+  cursor: pointer;
+}
+.component-1-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.icon-profile-circled1 {
+  position: absolute;
+  height: 44.5%;
+  width: 53.94%;
+  top: 5.5%;
+  right: 23.03%;
+  bottom: 50%;
+  left: 23.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.sexfemale {
+  margin-block-start: 0;
+  margin-block-end: 11px;
+}
+.amy-age22-sexfemale-container1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.amy-age22-sexfemale-container {
+  position: absolute;
+  height: 47%;
+  width: 71.82%;
+  top: 53%;
+  left: 13.94%;
+  display: flex;
+  align-items: center;
+}
+.component-1,
+.component-2,
+.component-3,
+.component-5 {
+  position: absolute;
+  height: 45.71%;
+  width: 19.06%;
+  top: 0;
+  right: 80.94%;
+  bottom: 54.29%;
+  left: 0;
+}
+.component-2,
+.component-3,
+.component-5 {
+  top: 54.29%;
+  right: 0;
+  bottom: 0;
+  left: 80.94%;
+}
+.component-3,
+.component-5 {
+  right: 26.98%;
+  left: 53.96%;
+}
+.component-5 {
+  right: 80.94%;
+  left: 0;
+}
+.component-4,
+.component-6,
+.component-7,
+.component-8 {
+  position: absolute;
+  height: 45.71%;
+  width: 19.06%;
+  top: 0;
+  right: 0;
+  bottom: 54.29%;
+  left: 80.94%;
+}
+.component-4,
+.component-7,
+.component-8 {
+  right: 26.98%;
+  left: 53.96%;
+}
+.component-4,
+.component-8 {
+  right: 53.96%;
+  left: 26.98%;
+}
+.component-4 {
+  top: 54.29%;
+  bottom: 0;
+}
+.patient-profile {
+  position: absolute;
+  top: 328px;
+  left: 94px;
+  width: 1731px;
+  height: 875px;
+  cursor: pointer;
+  color: var(--color-black);
+  font-family: var(--font-amiko);
+}
+.my-patients {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 100vw;
+  overflow-y: auto;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}

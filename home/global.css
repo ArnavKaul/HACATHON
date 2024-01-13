@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-elsie: Elsie;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-darkturquoise-100: rgba(42, 225, 255, 0.25);
+  --color-darkturquoise-200: rgba(42, 225, 255, 0.5);
+  --color-gainsboro: #e2e1e5;
+  --color-lightgray: #d2d2d2;
+  --color-white: #fff;
+  --color-black: #000;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-mini: 15px;
+
+  /* Border radiuses */
+  --br-8xs: 5px;
+}

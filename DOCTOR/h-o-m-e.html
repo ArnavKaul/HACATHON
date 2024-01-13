@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./h-o-m-e.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Amiko:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home">
+      <img class="logo-icon" alt="" src="./public/logo@2x.png" />
+
+      <div class="search-bar1">
+        <div class="search-bar-item"></div>
+        <div class="search-all-patients1">SEARCH ALL PATIENTS</div>
+        <img
+          class="icon-magnifying-glass1"
+          alt=""
+          src="./public/-icon-magnifying-glass.svg"
+        />
+      </div>
+      <div class="home-child"></div>
+      <div class="complete-nav-bar">
+        <div class="nav-menu">
+          <div class="appointments1" id="aPPOINTMENTSText">APPOINTMENTS</div>
+          <div class="settings">SETTINGS</div>
+          <div class="chats">CHATS</div>
+          <div class="my-patients1" id="mYPATIENTSText">MY PATIENTS</div>
+        </div>
+        <div class="nav-bar-pic">
+          <img class="icon-person" alt="" src="./public/-icon-person.svg" />
+
+          <img class="icon-cog" alt="" src="./public/-icon-cog.svg" />
+
+          <img class="icon-calendar" alt="" src="./public/-icon-calendar.svg" />
+
+          <img class="icon-chat" alt="" src="./public/-icon-chat.svg" />
+        </div>
+      </div>
+      <b class="dr-moksh-shah-container">
+        <span class="dr-moksh-shah-container1">
+          <p class="dr-moksh-shah">Dr. Moksh Shah</p>
+          <p class="dr-moksh-shah">General Physician</p>
+        </span>
+      </b>
+      <div class="home-item"></div>
+      <div class="home-inner"></div>
+      <b class="date">DATE</b>
+      <div class="recent-patients">RECENT PATIENTS</div>
+      <div class="recent-patients1" id="recentPatientsContainer">
+        <div class="component-41">
+          <div class="component-4-item"></div>
+          <img
+            class="icon-profile-circled9"
+            alt=""
+            src="./public/-icon-profile-circled.svg"
+          />
+
+          <div class="amy-age22-sexfemale-container16">
+            <span class="amy-age22-sexfemale-container17">
+              <p class="amy9">AMY</p>
+              <p class="amy9">AGE:22</p>
+              <p class="amy9">SEX:FEMALE</p>
+            </span>
+          </div>
+        </div>
+        <div class="component-51">
+          <div class="component-4-item"></div>
+          <img
+            class="icon-profile-circled9"
+            alt=""
+            src="./public/-icon-profile-circled.svg"
+          />
+
+          <div class="amy-age22-sexfemale-container16">
+            <span class="amy-age22-sexfemale-container17">
+              <p class="amy9">AMY</p>
+              <p class="amy9">AGE:22</p>
+              <p class="amy9">SEX:FEMALE</p>
+            </span>
+          </div>
+        </div>
+        <div class="component-61">
+          <div class="component-4-item"></div>
+          <img
+            class="icon-profile-circled9"
+            alt=""
+            src="./public/-icon-profile-circled.svg"
+          />
+
+          <div class="amy-age22-sexfemale-container16">
+            <span class="amy-age22-sexfemale-container17">
+              <p class="amy9">AMY</p>
+              <p class="amy9">AGE:22</p>
+              <p class="amy9">SEX:FEMALE</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var aPPOINTMENTSText = document.getElementById("aPPOINTMENTSText");
+      if (aPPOINTMENTSText) {
+        aPPOINTMENTSText.addEventListener("click", function (e) {
+          window.location.href = "./appointments.html";
+        });
+      }
+      
+      var mYPATIENTSText = document.getElementById("mYPATIENTSText");
+      if (mYPATIENTSText) {
+        mYPATIENTSText.addEventListener("click", function (e) {
+          window.location.href = "./my-patients.html";
+        });
+      }
+      
+      var recentPatientsContainer = document.getElementById(
+        "recentPatientsContainer"
+      );
+      if (recentPatientsContainer) {
+        recentPatientsContainer.addEventListener("click", function (e) {
+          window.location.href = "./patient-info.html";
+        });
+      }
+      </script>
+  </body>
+</html>

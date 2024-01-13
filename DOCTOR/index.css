@@ -1,0 +1,94 @@
+.amy,
+.download-patient-file {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.amy {
+  position: absolute;
+  top: 125px;
+  left: 607px;
+  width: 706px;
+  height: 129px;
+}
+.download-patient-file {
+  position: relative;
+  width: 832px;
+  height: 177px;
+  flex-shrink: 0;
+}
+.icon-download {
+  position: relative;
+  width: 96px;
+  height: 128px;
+}
+.download-patient-file-parent {
+  position: absolute;
+  top: 733px;
+  left: calc(50% - 416px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-13xl);
+}
+.previous-doctors-drsneha {
+  margin-block-start: 0;
+  margin-block-end: 49px;
+}
+.previous-doctors-drsneha-container1 {
+  width: 100%;
+}
+.previous-doctors-drsneha-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vw;
+}
+.vector-icon {
+  position: absolute;
+  top: 37px;
+  left: 97px;
+  width: 88px;
+  height: 88px;
+  cursor: pointer;
+}
+.patient-info-child,
+.patient-info-item {
+  position: absolute;
+  top: 253.5px;
+  left: 472.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1005px;
+  height: 1px;
+}
+.patient-info-item {
+  top: 716.5px;
+}
+.icon-profile-circled {
+  position: absolute;
+  height: 12.17%;
+  width: 6.84%;
+  top: 0.83%;
+  right: 46.59%;
+  bottom: 87%;
+  left: 46.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.patient-info {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 100vw;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-amiko);
+}

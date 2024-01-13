@@ -1,0 +1,521 @@
+.schedule-appointment-child {
+  position: absolute;
+  top: 81px;
+  left: 480px;
+  border-radius: 50%;
+  background-color: var(--color-gainsboro);
+  width: 103px;
+  height: 102px;
+}
+.dr-name1 {
+  margin: 0;
+}
+.dr-name-dr-container3 {
+  width: 100%;
+}
+.dr-name-dr-container2 {
+  position: absolute;
+  top: 49px;
+  left: 634px;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  width: 397px;
+  height: 166px;
+}
+.schedule-appointment-item {
+  position: absolute;
+  top: 202.5px;
+  left: 457.5px;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1095px;
+  height: 1px;
+}
+.schedule-appointment-inner {
+  position: absolute;
+  top: 771px;
+  left: 458px;
+  max-height: 100%;
+  width: 1094px;
+}
+.frame-div {
+  position: absolute;
+  top: 335px;
+  left: 395px;
+  width: 39px;
+}
+.may-2023 {
+  position: relative;
+  font-weight: 900;
+}
+.chevron-child {
+  position: relative;
+  width: 14px;
+  height: 14px;
+}
+.chevron {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px;
+}
+.chevron-icon {
+  width: 46px;
+  height: 46px;
+  object-fit: contain;
+}
+.chevron-parent,
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.chevron-parent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.header {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+}
+.cell,
+.mo {
+  justify-content: center;
+}
+.mo {
+  position: relative;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.cell {
+  flex-direction: column;
+  padding: var(--padding-xl);
+}
+.cell,
+.cell1,
+.row {
+  display: flex;
+  align-items: center;
+}
+.cell1 {
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-xl);
+  margin-left: -1px;
+}
+.row {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.cell7,
+.div {
+  justify-content: center;
+}
+.div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.cell7 {
+  border: 1px solid var(--stroke);
+  flex-direction: column;
+  padding: var(--padding-xl);
+}
+.cell7,
+.cell8,
+.row1 {
+  display: flex;
+  align-items: center;
+}
+.cell8 {
+  border: 1px solid var(--stroke);
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-xl);
+  margin-left: -1px;
+}
+.row1 {
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: -1px;
+}
+.cell24,
+.cell35,
+.cell36 {
+  border: 1px solid var(--stroke);
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-xl);
+}
+.cell24 {
+  background-color: var(--active);
+  display: flex;
+  align-items: center;
+  margin-left: -1px;
+  color: var(--color-white);
+}
+.cell35,
+.cell36 {
+  color: var(--color-black);
+}
+.cell35 {
+  display: flex;
+  align-items: center;
+}
+.cell36 {
+  margin-left: -1px;
+}
+.cell36,
+.cell38,
+.days,
+.row5 {
+  display: flex;
+  align-items: center;
+}
+.cell38 {
+  background-color: var(--inactive);
+  border: 1px solid var(--stroke);
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-xl);
+  margin-left: -1px;
+}
+.days,
+.row5 {
+  justify-content: flex-start;
+}
+.row5 {
+  flex-direction: row;
+  margin-top: -1px;
+  color: var(--color-darkgray);
+}
+.days {
+  overflow: hidden;
+  flex-direction: column;
+  text-align: center;
+  font-size: var(--font-size-sm);
+}
+.available-slots,
+.calendar {
+  position: absolute;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+  display: flex;
+}
+.calendar {
+  top: 236px;
+  left: 667px;
+  border-radius: 16px;
+  background-color: var(--color-white);
+  width: 630px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px;
+  box-sizing: border-box;
+  gap: 12px;
+}
+.available-slots {
+  top: 785px;
+  left: 456px;
+  font-weight: 900;
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 325px;
+  height: 58px;
+}
+.slot-1,
+.slot-2-icon {
+  position: absolute;
+  height: 93.94%;
+  width: 25.28%;
+  border-radius: var(--br-6xl);
+}
+.slot-1 {
+  top: 6.06%;
+  right: 74.72%;
+  bottom: 0;
+  left: 0;
+  background-color: #faf5f5;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.slot-2-icon {
+  top: 0;
+  right: 37.4%;
+  bottom: 6.06%;
+  left: 37.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.timing-1 {
+  position: absolute;
+  height: 68.18%;
+  width: 18.37%;
+  top: 18.18%;
+  left: 40.71%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slot-3-icon {
+  position: absolute;
+  height: 93.94%;
+  width: 25.28%;
+  top: 0;
+  right: 0;
+  bottom: 6.06%;
+  left: 74.72%;
+  border-radius: var(--br-6xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.timing-2,
+.timing-3 {
+  position: absolute;
+  height: 68.18%;
+  width: 18.37%;
+  top: 18.18%;
+  left: 0.15%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timing-3 {
+  top: 12.12%;
+  left: 76.86%;
+}
+.timing {
+  position: absolute;
+  top: 856px;
+  left: 508px;
+  width: 680.5px;
+  height: 66px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+}
+.schedule-appointment-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro);
+  width: 382px;
+  height: 1080px;
+}
+.schedule-appointment-child2 {
+  position: absolute;
+  top: 101px;
+  left: 100px;
+  border-radius: 50%;
+  background-color: var(--color-gray-200);
+  width: 102px;
+  height: 114px;
+}
+.appointments1 {
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.appointments1,
+.chats1,
+.my-patients1,
+.settings1 {
+  position: absolute;
+  height: 20.05%;
+  width: 97.66%;
+  display: flex;
+  align-items: center;
+}
+.settings1 {
+  top: 79.95%;
+  left: 2.34%;
+}
+.chats1,
+.my-patients1 {
+  left: 0;
+}
+.chats1 {
+  top: 53.3%;
+  cursor: pointer;
+}
+.my-patients1 {
+  top: 26.65%;
+  font-size: var(--font-size-9xl);
+}
+.nav-menu1 {
+  position: absolute;
+  height: 100%;
+  width: 85.52%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 14.48%;
+  opacity: 0.8;
+}
+.icon-calendar1,
+.icon-chat1,
+.icon-cog1,
+.icon-person1 {
+  position: absolute;
+  height: 11.08%;
+  width: 100%;
+  top: 32.19%;
+  right: 0;
+  bottom: 56.73%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-calendar1,
+.icon-chat1,
+.icon-cog1 {
+  top: 88.92%;
+  bottom: 0;
+}
+.icon-calendar1,
+.icon-chat1 {
+  height: 14.17%;
+  top: 0;
+  bottom: 85.83%;
+}
+.icon-chat1 {
+  height: 9.71%;
+  top: 61.21%;
+  bottom: 29.08%;
+}
+.nav-bar-pic1 {
+  position: absolute;
+  height: 89.39%;
+  width: 9.36%;
+  top: 2.59%;
+  right: 90.64%;
+  bottom: 8.02%;
+  left: 0;
+  opacity: 0.85;
+}
+.complete-nav-bar1 {
+  position: absolute;
+  top: 432px;
+  left: 36px;
+  width: 440px;
+  height: 424px;
+  opacity: 0.9;
+}
+.hello-amy1 {
+  position: absolute;
+  top: 249px;
+  left: 100px;
+  font-size: var(--font-size-24xl);
+  display: flex;
+  font-family: var(--font-roboto);
+  align-items: center;
+  width: 287px;
+  height: 161px;
+}
+.schedule-appointment-child3,
+.schedule-appointment-child4 {
+  position: absolute;
+  top: 192px;
+  left: 1577px;
+  border-radius: var(--br-mini);
+  background-color: var(--color-gray-100);
+  width: 316px;
+  height: 123px;
+}
+.schedule-appointment-child4 {
+  top: 292px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro);
+  height: 463px;
+}
+.facing-issues-using1 {
+  position: absolute;
+  top: 191px;
+  left: 1616px;
+  font-size: var(--font-size-lg);
+  display: flex;
+  align-items: center;
+  width: 304px;
+  height: 91px;
+}
+.schedule-appointment-child5 {
+  position: absolute;
+  top: 694px;
+  left: 1577px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-whitesmoke-100);
+  width: 316px;
+  height: 61px;
+}
+.enter-your-query1 {
+  position: absolute;
+  top: 708px;
+  left: 1688px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-inter);
+  display: flex;
+  align-items: center;
+  width: 205px;
+  height: 34px;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 314px;
+  left: 1616px;
+  width: 69px;
+  height: 64px;
+}
+.schedule-appointment-child6 {
+  position: absolute;
+  top: 327px;
+  left: 1699px;
+  border-radius: var(--br-15xl);
+  background-color: var(--color-whitesmoke-200);
+  width: 126px;
+  height: 39px;
+}
+.logo-icon1 {
+  position: absolute;
+  top: 312px;
+  left: 1615px;
+  border-radius: var(--br-83xl);
+  width: 78px;
+  height: 68px;
+  object-fit: cover;
+}
+.vector-icon1 {
+  position: absolute;
+  top: 14px;
+  left: 415px;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+}
+.schedule-appointment {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-10xl);
+  color: var(--color-black);
+  font-family: var(--font-amiko);
+}

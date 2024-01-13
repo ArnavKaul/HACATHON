@@ -1,0 +1,282 @@
+
+.logo-icon {
+  position: absolute;
+  top: -86px;
+  left: 909px;
+  width: 593px;
+  height: 421px;
+  object-fit: cover;
+}
+.search-bar-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-24xl);
+  background-color: var(--color-gainsboro-200);
+}
+.search-all-patients1 {
+  position: absolute;
+  height: 49.37%;
+  width: 54.12%;
+  top: 25.32%;
+  left: 22.94%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-magnifying-glass1 {
+  position: absolute;
+  height: 70.63%;
+  width: 6.13%;
+  top: 15.19%;
+  right: 92.01%;
+  bottom: 14.18%;
+  left: 1.87%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.search-bar1 {
+  position: absolute;
+  top: 256px;
+  left: 750px;
+  width: 911px;
+  height: 79px;
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+.home-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gainsboro-200);
+  width: 504px;
+  height: 100vw;
+}
+.appointments1,
+.chats,
+.my-patients1,
+.settings {
+  position: absolute;
+  height: 20.05%;
+  width: 97.66%;
+  display: flex;
+  align-items: center;
+}
+.appointments1 {
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.chats,
+.my-patients1,
+.settings {
+  top: 79.95%;
+  left: 2.34%;
+}
+.chats,
+.my-patients1 {
+  top: 53.3%;
+  left: 0;
+}
+.my-patients1 {
+  top: 26.65%;
+  cursor: pointer;
+}
+.nav-menu {
+  position: absolute;
+  height: 100%;
+  width: 85.52%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 14.48%;
+  opacity: 0.8;
+}
+.icon-calendar,
+.icon-chat,
+.icon-cog,
+.icon-person {
+  position: absolute;
+  height: 11.08%;
+  width: 100%;
+  top: 32.19%;
+  right: 0;
+  bottom: 56.73%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.icon-calendar,
+.icon-chat,
+.icon-cog {
+  top: 88.92%;
+  bottom: 0;
+}
+.icon-calendar,
+.icon-chat {
+  height: 14.17%;
+  top: 0;
+  bottom: 85.83%;
+}
+.icon-chat {
+  height: 9.71%;
+  top: 61.21%;
+  bottom: 29.08%;
+}
+.nav-bar-pic {
+  position: absolute;
+  height: 89.39%;
+  width: 9.35%;
+  top: 2.59%;
+  right: 90.65%;
+  bottom: 8.02%;
+  left: 0;
+  opacity: 0.85;
+}
+.complete-nav-bar {
+  position: absolute;
+  top: 418px;
+  left: 31px;
+  width: 449px;
+  height: 424px;
+  opacity: 0.9;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+}
+.dr-moksh-shah {
+  margin: 0;
+}
+.dr-moksh-shah-container1 {
+  width: 100%;
+}
+.dr-moksh-shah-container {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  font-size: var(--font-size-17xl);
+  display: flex;
+  font-family: var(--font-roboto);
+  align-items: center;
+  width: 480px;
+  height: 124px;
+}
+.home-inner,
+.home-item {
+  position: absolute;
+  top: 201.5px;
+  left: 58.5px;
+  background-color: var(--color-gainsboro-200);
+  border-top: 3px solid var(--color-black);
+  box-sizing: border-box;
+  width: 362px;
+  height: 3px;
+}
+.home-inner {
+  top: 370.5px;
+}
+.date,
+.recent-patients {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.date {
+  top: 249px;
+  left: 60px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-roboto);
+  width: 341px;
+  height: 78px;
+}
+.recent-patients {
+  top: 540px;
+  left: 983px;
+  color: var(--color-white);
+  width: 450px;
+  height: 53px;
+}
+.component-4-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+}
+.icon-profile-circled9 {
+  position: absolute;
+  height: 44.5%;
+  width: 53.94%;
+  top: 5.5%;
+  right: 23.03%;
+  bottom: 50%;
+  left: 23.03%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.amy9 {
+  margin-block-start: 0;
+  margin-block-end: 11px;
+}
+.amy-age22-sexfemale-container17 {
+  line-break: anywhere;
+  width: 100%;
+}
+.amy-age22-sexfemale-container16 {
+  position: absolute;
+  height: 47%;
+  width: 71.82%;
+  top: 53%;
+  left: 13.94%;
+  display: flex;
+  align-items: center;
+}
+.component-41,
+.component-51,
+.component-61 {
+  position: absolute;
+  height: 100%;
+  width: 28.65%;
+  top: 0;
+  right: 71.35%;
+  bottom: 0;
+  left: 0;
+}
+.component-51,
+.component-61 {
+  right: 35.5%;
+  left: 35.85%;
+}
+.component-61 {
+  right: 0;
+  left: 71.35%;
+}
+.recent-patients1 {
+  position: absolute;
+  top: 616px;
+  left: 630px;
+  width: 1152px;
+  height: 400px;
+  cursor: pointer;
+}
+.home {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 100%;
+  height: 100vw;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-amiko);
+}
